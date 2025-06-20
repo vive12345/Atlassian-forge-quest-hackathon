@@ -1,4 +1,4 @@
-# 🚀 Vipsa's Epic ASU Forge App
+# 🚀 Vipsa's Forge App on confluence
 
 **Atlassian June 2025 Hackathon Submission**
 
