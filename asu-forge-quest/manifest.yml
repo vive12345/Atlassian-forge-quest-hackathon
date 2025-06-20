@@ -1,0 +1,21 @@
+modules:
+  confluence:spacePage:
+    - key: asu-forge-quest-hello-world-space-page
+      resource: main
+      resolver:
+        function: resolver
+      render: native
+      title: Vipsa's ASU Forge Quest
+      route: hello-world
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: src/frontend/index.jsx
+app:
+  runtime:
+    name: nodejs22.x
+    memoryMB: 256
+    architecture: arm64
+  id: ari:cloud:ecosystem::app/ee3d2ccb-46e6-42e4-9363-c8dd64d87086
